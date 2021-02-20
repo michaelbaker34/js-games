@@ -15,15 +15,15 @@
     let $numberOfShapes = $("#number-of-shapes-input");
     let renderShape = [
         {
-            "shape": "",
-            "color":  ""
+            "shape": randomShapeSelector(randomShapes),
+            "color":  randomColorSelector(randomColors)
         }
     ]
 
-    // variable console logs
     // console.log(randomShapes);
     // console.log(randomColors);
     // console.log(randomShapeSelector(randomShapes));
     // console.log(randomColorSelector(randomColors));
+    console.log(renderShape);
     
 // });
