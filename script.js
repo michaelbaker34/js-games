@@ -2,13 +2,16 @@
 
 $(document).ready(function() {
 
-    const colors = ["red", "green", "blue", "yellow", "purple", "orange"];
-    const colorSelector = function randomColor(colors) {
+    function randomColor() {
+            let colors = ["red", "green", "blue", "yellow", "purple", "orange"];
             return colors[Math.floor(Math.random() * colors.length)];
         }
-    
+    console.log(randomColor());
+
+
+
     $("#game-start").click((e) => {
-        console.log(colorSelector);
+        
     });
 
 });
