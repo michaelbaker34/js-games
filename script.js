@@ -16,7 +16,7 @@
     let renderShape = [
         {
             "shape": randomShapeSelector(randomShapes),
-            "color":  randomColorSelector(randomColors)
+            "color": randomColorSelector(randomColors)
         }
     ]
 
@@ -25,5 +25,5 @@
     // console.log(randomShapeSelector(randomShapes));
     // console.log(randomColorSelector(randomColors));
     console.log(renderShape);
-    
+
 // });
