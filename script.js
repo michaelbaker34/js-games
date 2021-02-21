@@ -11,7 +11,7 @@ $(document).ready(function() {
             return randomColors[Math.floor(Math.random() * randomColors.length)];
         }
     
-    let renderShape = [
+    let createShapeObject = [
         {
             "shape": randomShapeSelector(randomShapes),
             "color": randomColorSelector(randomColors)
@@ -19,14 +19,20 @@ $(document).ready(function() {
     ]
     let $numberOfShapes = $("#number-of-shapes-input");
 
-    console.log(renderShape);
+    console.log(createShapeObject);
 
     $("#submit-number-of-shapes").click((e) => {
         console.log($numberOfShapes.val())
         let $numberOfShapesInput = $numberOfShapes.val();
         
         for (let i = 0; i < $numberOfShapesInput; i++) {
-            console.log(i);
+            function renderShapeObjects(i) {
+                i.forEach((value) => {
+                    let $shapeDiv = $("<div>",{id:'shape' + i});
+                    console.log($shapeDiv);
+                });
+            }
+            
         }
 
     });
