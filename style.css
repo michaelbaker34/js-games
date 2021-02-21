@@ -1,16 +1,35 @@
 * {
     margin: 0;
     padding: 3px;
+    color: white;
+    background-color: black;
+    font-family: Helvetica, Arial, Sans-Serif;
+}
+
+#game-head {
+    display: flex;
+    flex-direction: column;
+}
+
+#game-start {
+    height: 30px;
+    width: 50px;
 }
 
 #game-container {
     border: 3px solid lightgray;
+    display: flex;
+    height: 400px;
+    width: 500px;
+
 }
 
 .button {
     border: lightgray 1px solid;
     height: 200px;
     width: 200px;
+    border-radius: 5%;
+    outline: none;
 }
 
 #button-1 {
