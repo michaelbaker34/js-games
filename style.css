@@ -17,19 +17,22 @@
 }
 
 #game-container {
-    border: 3px solid lightgray;
     display: flex;
-    height: 400px;
+    border: 3px solid lightgray;
+    height: 500px;
     width: 500px;
-
 }
 
 .button {
-    border: lightgray 1px solid;
     height: 200px;
     width: 200px;
     border-radius: 5%;
     outline: none;
+    margin: 1px;
+}
+
+.button:hover {
+    border: 1px solid white;
 }
 
 #button-1 {
