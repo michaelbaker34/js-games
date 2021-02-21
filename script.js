@@ -17,12 +17,11 @@ $(document).ready(function() {
             "color": randomColorSelector(randomColors)
         }
     ]
-
+    let $numberOfShapes = $("#number-of-shapes-input");
     console.log(renderShape);
 
-    $("#submit-number-of-shapes").click(function () {
-        let $numberOfShapes = $("#number-of-shapes-input").val();
-        console.log($numberOfShapes)
+    $("#submit-number-of-shapes").click(function (e) {
+        console.log($numberOfShapes.val())
     });
 
 });
