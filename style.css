@@ -4,6 +4,27 @@
 }
 
 #game-container {
-    border: 3px solid gray
+    border: 3px solid lightgray;
 }
 
+.button {
+    border: lightgray 1px solid;
+    height: 200px;
+    width: 200px;
+}
+
+#button-1 {
+    background-color: red;
+}
+
+#button-2 {
+    background-color: green;
+}
+
+#button-3 {
+    background-color: blue;
+}
+
+#button-4 {
+    background-color: yellow;
+}
